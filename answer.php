@@ -30,6 +30,7 @@
         <img src="./images/volume of sphere.png" width="250" />
       </div>
       <div class="page-content-php">
+        <div id="volume">
         <?php
         // this calculates volume of a sphere
         $radiusNumber = $_GET["radius-number"];
