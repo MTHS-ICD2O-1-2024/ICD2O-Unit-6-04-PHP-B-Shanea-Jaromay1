@@ -28,21 +28,15 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume of sphere.png" alt="sphere image" />
+        <img src="./images/volume-of-sphere.png" alt="sphere image" />
       </div>
-      <br />
-      <form action="answer.php" method="GET">
-        <div class="page-content">
-          <h2>Formula</h2>
-          <h3>V = (4/3) x π x r³</h3>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Calculate
-          </button>
+        <!-- Accent-colored raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          type="submit">
+          Calculate
+        </button>
       </form>
-    </div>
+  </div>
   </main>
   </div>
 </body>
