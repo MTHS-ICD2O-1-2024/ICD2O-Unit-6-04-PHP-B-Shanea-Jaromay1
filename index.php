@@ -36,13 +36,13 @@
           <h2>Formula</h2>
           <h3>V = (4/3) x π x r³</h3>
           <br />
-          <br />
-          <div class="page-content-answer">
-            The radius is:
-            <div name="dimension"></div>
-            <div name="volume"></div>
-          </div>
-  </div>
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            type="submit">
+            Calculate
+          </button>
+      </form>
+    </div>
   </main>
   </div>
 </body>
