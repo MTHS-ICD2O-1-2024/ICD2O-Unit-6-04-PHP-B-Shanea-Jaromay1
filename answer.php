@@ -30,18 +30,18 @@
         <img src="./images/volume of sphere.png" width="250" />
       </div>
       <div class="page-content-php">
-        <div id="volume">
+        <div id="employment-info">
         <?php
         // this calculates volume of a sphere
-        $radiusNumber = $_GET["radius-number"];
+        $radiusOfSphere = $_GET["radius-of-sphere"];
 
         // Calculate surface area of the cylinder
-        $volume = (4 / 3) * M_PI * ($radiusNumber ** 3);
+        $volumeOfSphere = (4 / 3) * M_PI * ($radiusOfSphere ** 3);
 
         // Output the result
-        echo "If the sphere has a radius = " . $radiusNumber . " mm<br />";
+        echo "If the sphere has a radius = " . $radiusOfSphere . " mm<br />";
         echo "<br />";
-        echo "The volume is:" . (round($volume, 2)) . " mm³.";
+        echo "The volume is:" . (round($volumeOfSphere, 2)) . " mm³.";
         echo "<br />";
         ?>
       </div>
