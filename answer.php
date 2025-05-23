@@ -27,15 +27,15 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume of sphere.png" width="250" />
+        <img src="./images/volume of sphere.png" alt="sphere" width="250" />
       </div>
       <div class="page-content-php">
         <div id="employment-info">
         <?php
-        // this calculates volume of a sphere
+        // input
         $radiusOfSphere = $_GET["radius-of-sphere"];
 
-        // Calculate surface area of the cylinder
+        // process
         $volumeOfSphere = (4 / 3) * M_PI * ($radiusOfSphere ** 3);
 
         // Output the result
